@@ -8,7 +8,7 @@
 - Gin (Web框架)
 - PostgreSQL (主資料庫)
 - GORM (ORM)
-- Redis (快取、購物車)
+- Redis (快取)
 - JWT (認證)
 
 ## 功能
