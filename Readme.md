@@ -5,10 +5,10 @@
 ## 技術棧
 
 - Golang
-- Gin (Web框架)
+- Gin (Web 框架)
 - PostgreSQL (主資料庫)
 - GORM (ORM)
-- Redis (快取、購物車)
+- Redis (快取)
 - JWT (認證)
 
 ## 功能
@@ -27,27 +27,8 @@
 - Go 1.20+
 - PostgreSQL
 - Redis
-- Docker (選用)
 
-### 環境設定
-
-1. 複製環境設定檔
-```bash
-cp config.example.go config.go
-```
-
-2. 啟動資料庫
-```bash
-docker run --name my-postgres -e POSTGRES_PASSWORD=your_password -p 5432:5432 -d postgres
-docker run --name my-redis -p 6379:6379 -d redis
-```
-
-3. 執行
-```bash
-go run cmd/main.go
-```
-
-## API文檔
+## API 文檔
 
 ### 使用者相關
 
